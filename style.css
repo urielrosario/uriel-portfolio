@@ -1,0 +1,148 @@
+body {
+  display: grid;
+  margin: 0;
+}
+/* header and nav */
+.headerclass {
+  background-color: rgb(48, 44, 44);
+}
+.headerclass .title {
+  font-family: "Segoe UI", Roboto, Oxygen, Ubuntu, "Open Sans";
+  font-size: 20px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  color: aliceblue;
+}
+.main-nav ul {
+  margin: 2px;
+  text-align: end;
+  font-size: 25px;
+  color: aliceblue;
+  margin-right: 20px;
+}
+.main-nav li {
+  display: inline;
+  margin-bottom: 20px;
+}
+.main-nav a:active {
+  color: blue;
+}
+.main-nav a:hover {
+  color: red;
+}
+.main-nav a {
+  display: inline-block;
+  padding: 5px;
+  color: aliceblue;
+}
+/* header part end */
+
+/* section part begin */
+section {
+  display: flex;
+  border: 7px solid red;
+  height: 400px;
+  font-size: 20px;
+  justify-content: center;
+  background-color: rgb(26, 22, 22);
+  color: antiquewhite;
+}
+section h2 span {
+  color: red;
+  font-size: 40px;
+}
+section p {
+  font-size: 20px;
+}
+.selfie-img {
+  width: 350px;
+  height: 350px;
+  border: transparent solid 10px;
+  border-radius: 50%;
+}
+.selfie-img:hover {
+  border: solid 50% red;
+}
+/* section ending */
+/* main start */
+article img {
+  display: flex;
+  height: 400px;
+  width: 400px;
+  border-radius: 50px;
+  align-content: flex-end;
+}
+article p {
+  font-size: 25px;
+  font-family: "Roboto", Oxygen, Ubuntu;
+  padding: 20px;
+}
+main {
+  background-color: rgb(19, 18, 18);
+  color: aliceblue;
+  justify-content: flex-end;
+  border: red 7px solid;
+}
+main h2 {
+  font-size: 30px;
+  text-align: center;
+  color: red;
+  font-size: 40px;
+}
+/* main ending */
+
+/* footer start */
+.footerflex {
+  background-color: rgb(13, 14, 14);
+}
+.footerflex ul:hover {
+  border-color: tomato;
+}
+
+.footerflex ul {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.footerflex h4 {
+  color: whitesmoke;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+.footerimg {
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  margin: 10px;
+  display: flex;
+  align-content: flex-end;
+  border: 5px solid transparent;
+  border-radius: 50%;
+}
+/* media queries */
+
+@media screen and (max-width: 800px) {
+  main {
+    border: teal 7px solid;
+  }
+  section {
+    border: teal 7px solid;
+  }
+  section h2 span {
+    color: teal;
+  }
+  main h2 {
+    color: teal;
+  }
+  .footerflex h4 {
+    color: teal;
+  }
+  .selfie-img {
+    height: 200px;
+    width: 200px;
+  }
+}
