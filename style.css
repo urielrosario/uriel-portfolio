@@ -68,15 +68,60 @@ section p {
 /* main start */
 article img {
   display: flex;
-  height: 400px;
-  width: 400px;
+  height: 500px;
+  width: 500px;
   border-radius: 50px;
   align-content: flex-end;
+  margin: 20px;
 }
 article p {
   font-size: 25px;
   font-family: "Roboto", Oxygen, Ubuntu;
   padding: 20px;
+}
+article h3 {
+  font-size: 30px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+}
+article a {
+  font-size: 20px;
+  text-decoration: none;
+  color: red;
+}
+#resrepo {
+  border: aliceblue 2px solid;
+  border-radius: 50px;
+  margin: 20px;
+  padding: 10px;
+}
+#resdeploy {
+  border: aliceblue 2px solid;
+  border-radius: 50px;
+  margin: 20px;
+  padding: 10px;
+}
+#dayrepo {
+  border: aliceblue 2px solid;
+  border-radius: 50px;
+  margin: 20px;
+  padding: 10px;
+}
+#daydeploy {
+  border: aliceblue 2px solid;
+  border-radius: 50px;
+  margin: 20px;
+  padding: 10px;
+}
+#number {
+  font-size: 20px;
+  color: aliceblue;
+  margin: 20px;
+}
+#email {
+  font-size: 20px;
+  color: aliceblue;
+  margin: 20px;
 }
 main {
   background-color: rgb(19, 18, 18);
@@ -90,6 +135,15 @@ main h2 {
   color: red;
   font-size: 40px;
 }
+.resume {
+  font-size: 30px;
+  margin: 40px;
+  text-decoration: none;
+  border: aliceblue 2px solid;
+  border-radius: 50px;
+  padding: 10pxgmaill;
+}
+
 /* main ending */
 
 /* footer start */
