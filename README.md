@@ -32,11 +32,11 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ---
 
-![screenshot](images\mobile-screenshot.png)
+![screenshot](images/mobile-screenshot.png)
 
 ## Links
 
 ---
 
-- See deployed site here : https://urielrosario.github.io/uriels-portfolio/
-- See repository here : https://github.com/urielrosario/uriels-portfolio.git
+- See deployed site here : https://urielrosario.github.io/uriel-portfolio/
+- See repository here : https://github.com/urielrosario/uriel-portfolio.git
